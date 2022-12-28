@@ -38,8 +38,6 @@ if DEBUG:
             "NAME": BASE_DIR / "db.sqlite3",
         }
     }
-    MEDIA_URL = "/media/"
-    MEDIA_ROOT = BASE_DIR / "media"
 else:
     DATABASES = {
         "default": {
@@ -66,7 +64,7 @@ else:
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "mypage-rds.cnu9nqixyhsc.ap-northeast-2.rds.amazonaws.com",
+    "http://mypagebeanstalk-env.eba-zejpmtem.ap-northeast-2.elasticbeanstalk.com",
 ]
 
 
