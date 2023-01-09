@@ -64,7 +64,7 @@ else:
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "http://mypagebeanstalk-env.eba-zejpmtem.ap-northeast-2.elasticbeanstalk.com",
+    "Mypageapplication-env.eba-hmh4nghe.ap-northeast-2.elasticbeanstalk.com",
 ]
 
 
